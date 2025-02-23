@@ -11,4 +11,6 @@ This work is developed on the basis of <https://github.com/d0ng1ee/logdeep>, and
 - python>=3.6  
 - pytorch >= 1.1.0  
 ## Quick start  
-Preprocess logs
+Preprocess logs  
+'cd demo'  
+'python preprocess.py'  
