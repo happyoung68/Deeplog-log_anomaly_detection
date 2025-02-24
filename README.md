@@ -28,3 +28,8 @@ This work is developed on the basis of <https://github.com/d0ng1ee/logdeep>, and
 
 4. Predict and output anomaly result
 
+   ```
+   python deeplog.py predict
+   ```
+   It will predict using `name = 'demo_input.csv'` in `predict.py`, here I am using the same file for both training and prediction, but you can change it as needed.😁
+   The anomaly output will be saved as `../result/anomaly_output_for_xxx.csv`.
