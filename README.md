@@ -1,8 +1,8 @@
 # Deeplog-log_anomaly_detection
 日志异常检测，Used for log anomaly detection, including log preprocessing, training, prediction, and output results.
 ## Introduction
-Used for log anomaly detection, including log processing, training, prediction, and output results.
-This work is developed on the basis of <https://github.com/d0ng1ee/logdeep>, and use [Drain](https://github.com/logpai/logparser) for log parsing.  
+Used for log anomaly detection, including log processing, training, prediction, and output results.   
+***This work is developed on the basis of <https://github.com/d0ng1ee/logdeep>, and use [Drain](https://github.com/logpai/logparser) for log parsing.***  
 ## Major features  
 - Used for producing environment.  
 - Including complete process.  
@@ -31,5 +31,5 @@ This work is developed on the basis of <https://github.com/d0ng1ee/logdeep>, and
    ```
    python deeplog.py predict
    ```
-   It will predict using `name = 'demo_input.csv'` in `predict.py`, here I am using the same file for both training and prediction, but you can change it as needed.😁
+   It will predict using `name = 'demo_input.csv'` in `predict.py`, here I am using the same file for both training and prediction, but you can change it as needed.😁   
    The anomaly output will be saved as `../result/anomaly_output_for_xxx.csv`.
