@@ -120,7 +120,7 @@ class Predicter():
         filtered_df = df[df['LineId'].isin(anomaly_line_list)]
 
         # 将筛选后的数据保存为新的 CSV 文件
-        output_csv = '../result/anomaly_output.csv'
+        output_csv = f'../result/anomaly_output_for_{name}'
         filtered_df.to_csv(output_csv, index=False)
 
         print(f"anomaly lines saved to {output_csv}.")
