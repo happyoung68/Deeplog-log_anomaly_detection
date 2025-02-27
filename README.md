@@ -30,7 +30,7 @@
    ```
    python deeplog.py predict
    ```
-   It will predict using `name = 'demo_input.csv'` in `predict.py`, here I am using the same file for both training and prediction, but you can change it as needed.😁   
+   It will predict using `name = 'demo_input.csv'` in `predict.py`, here I am using the same file for **training, validation, and prediction.** But you can change it as needed.😁   
    The anomaly output will be saved as `../result/anomaly_output_for_xxx.csv`.
 
 5. DIY your own model   
